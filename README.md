@@ -9,6 +9,6 @@ Steps to run the project :
 2. cd client && npm start
 3. The Node server should start at port 3006. (Change the port in the .env file, incase your port 3000 is busy)
 
-There are no external dependencies. The screensot is shown below :
+There are no external dependencies. The screenshot is shown below :
 
 ![](https://github.com/bora0072/FoodsByChallenge/blob/master/client/screenshot.png)
