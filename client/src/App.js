@@ -9,20 +9,15 @@ class App extends Component {
     this.state = {
       data: jsonData.dropoffs,
       day : "Monday",
-      selected : "Monday"
     };
   }
+
   displayContent = (displayDay) => {
     this.setState({day : displayDay});
     this.forceUpdate();
   }
 
-  refreshContent(){
-
-  }
-
   render() {
-
     const day = this.state.data.filter(l => {
         return l.day == this.state.day;
     });
@@ -59,5 +54,4 @@ class App extends Component {
     );
   }
 }
-
 export default App;
